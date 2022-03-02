@@ -1,0 +1,8 @@
+version: "3.3"
+services:
+  cpp_devel:
+    build: ./docker
+    volumes:
+      - "./cpp_devel_ws:/home/cpp_docker/"
+    stdin_open: true
+    tty: true
